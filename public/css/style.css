@@ -1,0 +1,78 @@
+/* Gradasi Pelangi Pastel untuk Hero Banner */
+.hero-banner {
+    background: linear-gradient(to right, #b5ead7, #ffb3ba, #ffdfba);
+    color: #d74760;
+    padding: 80px 0;
+}
+/* Pastel Colors for other sections */
+.section-light {
+    background-color: #ebebeb;
+}
+.section-promo {
+    background: linear-gradient(to right, #b5ead7, #ffb3ba, #ffdfba);
+}
+.footer {
+    background-color: #d74760;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Navbar Colors */
+.navbar-custom {
+    background-color: #f9e1d6;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #d74760;
+}
+.navbar-custom .navbar-brand {
+    color: #d74760;
+}
+.navbar-custom .navbar-toggler-icon {
+    background-color: #f9e1d6;
+}
+/* Adjustments for category section */
+.category-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 150px; /* Adjusted height */
+    width: 150px; /* Adjusted width */
+    border-radius: 50%; /* Keep it circular */
+    background-color: #fff; /* Background color */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+.category-circle:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+/* Responsive text styling */
+section#kategori p {
+    font-size: 14px; /* Adjusted font size for smaller screens */
+    font-weight: bold;
+    color: #d74760;
+    margin-top: 10px;
+}
+/* Tombol "Beli Sekarang" dengan warna pink tua dan teks putih */
+.btn-pink {
+    background-color: #d74760; /* Warna pink tua */
+    color: white; /* Teks putih */
+    border: none; /* Menghilangkan border */
+}
+.btn-pink:hover {
+    background-color: #9f3b4e; /* Warna pink tua lebih gelap saat hover */
+}
+/* Tombol Ikon Keranjang */
+.btn-cart {
+    background-color: #ffb3ba;
+    color: #d74760;
+    border: none;
+}
+.btn-cart:hover {
+    background-color: #ff7f7f;
+    color: white;
+}
+/* Styling ikon di samping teks tombol */
+.btn-cart .bi {
+    margin-right: 8px;
+}
